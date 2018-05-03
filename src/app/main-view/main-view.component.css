@@ -1,0 +1,41 @@
+.tg  {width:100%; border-collapse:collapse;border-spacing:0;border-color:#aaa;border-width:1px;border-style:solid;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aaa;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aaa;color:#fff;background-color:#f38630;}
+.tg .tg-j2zy{text-align: center; background-color:#FCFBE3;vertical-align:top}
+.tg .tg-yw4l{text-align: center; vertical-align:top}
+
+.servers {
+	background-color: rgba(255, 238, 235, 0.70);
+	padding: 20px;
+	box-shadow: 10px 10px 5px #666666;
+}
+
+p {
+    font-family: 'Open Sans','Trebuchet MS','Arial','sans-serif';
+    font-size: 14px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: normal;
+    text-transform: none;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 10px;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+.info-msg,
+.success-msg,
+.warning-msg,
+.error-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+}
+.success-msg {
+  color: #270;
+  background-color: #DFF2BF;
+}
+.error-msg {
+  color: #D8000C;
+  background-color: #FFBABA;
+}

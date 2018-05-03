@@ -1,0 +1,60 @@
+<h2>
+  Available Servers:
+</h2>
+
+<div>
+	 <div class ="servers" *ngFor="let server of serverList; index as i; odd as isOdd; even as isEven" > 
+
+	 <div style="float:left">
+	 <h3> 
+		<p>Server Name: {{ server.name }}</p>
+	 </h3>
+	</div>
+	<div style="float:right;margin-top: 20px">
+	 <input type="button" value="Delete Instance" (click) ="deleteServer(server.name)">
+	</div>
+	 
+		<table class="tg table-hover"  align="center">
+		  <tr>
+			<th class="tg-yw4l">Minecraft</th>
+			<th class="tg-yw4l">RCON</th>
+			<th class="tg-yw4l">Users</th>
+
+		</tr>
+		  
+		  <tbody>
+			<tr align="center">
+				<td> 
+					<p>{{ server.ip }}</p>
+				</td>
+				
+				<td>
+					<p>{{ server.ip }}</p>
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+		  </tbody>
+		 </table> 
+	 </div>
+ </div>
+
+ <br/><br/>
+
+<input type="button" value="Add Server" id="addServer"/>
+<br/>
+
+<div id="success-server-add" class="success-msg" style="display:none">
+  <i class="fa fa-check"></i>
+  Successfully added server...
+</div>
+
+<div id="error-server-add" class="error-msg" style="display:none">
+  <i class="fa fa-times-circle"></i>
+  Error adding server...
+</div>
+<br/>
+ 

@@ -1,0 +1,7 @@
+.content {
+/*  min-height: calc(100vh - 105px);*/
+  padding: 20px 40px 0 40px;
+	margin-left: 13%;
+	margin-right: 13%;
+	background-color: gray;
+}
